@@ -837,13 +837,13 @@ do_help(int argc, char **argv)
     }
 }
 
-static char *
-getline(char *prompt, char *input, int len)
-{
-    printf("%s", prompt); fflush(stdout);
-
-    return fgets(input, len, stdin);
-}
+//static char *
+//getline(char *prompt, char *input, int len)
+//{
+//    printf("%s", prompt); fflush(stdout);
+//
+//    return fgets(input, len, stdin);
+//}
 
 
 static void
